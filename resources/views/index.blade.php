@@ -9,11 +9,10 @@
 <body>
     <section class="container">
         <article class="grid large center">
-            <p>Obtenha seu desconto girando a roleta</p> 
-            <img src="{{ URL::asset('assets/img/roleta.png')}}" alt="">
+            <p>*Obtenha seu desconto girando a roleta</p> 
+            <img src="{{ URL::asset('assets/img/roleta.jpg')}}" alt="">
         </article>
         <article class="grid large center">
-            <h1>Gire a roleta para obter seu desconto</h1>
             <button onclick="giro()" class="btn-girar">GIRAR</button>
             <h2 class="resp"></h2>
         </article>

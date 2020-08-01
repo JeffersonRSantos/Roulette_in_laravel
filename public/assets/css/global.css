@@ -1,5 +1,5 @@
 body{
-    background-color: #AEA2C7;
+    background-color: #fff;
 }
 h1, p, .resp{
     font-family: sans-serif;
@@ -12,7 +12,7 @@ h1{
     margin: 0 auto;   
 }
 img{
-    max-width:25%;
+    max-width:30%;
 }
 .container{
     padding-top:20px;
@@ -35,15 +35,16 @@ img{
     text-align: center;
 }
 .btn-girar{
-    border:none;
+    border:2px solid #533594;
     border-radius: 5px;
     padding:20px 110px;
     margin-top:20px;
     cursor: pointer;
+    color:#533594;
 }
 .btn-girar:hover, .btn-girar:active, .btn-girar:focus{
     background-color:#533594;
     color:white;
     transition: .3s;
-    border:none;
+    border:2px solid #533594;
 }
